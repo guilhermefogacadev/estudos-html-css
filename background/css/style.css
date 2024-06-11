@@ -1,0 +1,11 @@
+h1 {
+  background-color: black;
+  color: #8844ee;
+  /*da pra usar as funcoes rgb e rgba(o a via de 0-1 mudando a transparencia */
+}
+
+a {
+  background-color: seagreen;
+  color: white;
+  font-size: 30px;
+}

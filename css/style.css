@@ -1,0 +1,23 @@
+a,
+h1 {
+  /* vai aplicar para as duas tags */
+  font-size: 32px;
+  color: red;
+}
+p a {
+  /*seleciona todo a dentro de uma tag p*/
+  color: black;
+}
+
+#texto-principal {
+  /*uso de id, lembrar que remete a algo unico*/
+  background-color: aqua;
+}
+
+.texto-sub /*classe, da para usar mais de uma vez durante o codigo, uma vez diferentes locais compartilharam da mesma caracteristica*/ {
+  background-color: gold;
+}
+
+.codigo .texto-sub /*classe dentro de classe, seguindo o exemplo das tags*/ {
+  background-color: gold;
+}
