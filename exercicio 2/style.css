@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  border: 0px;
+  border-radius: 4px;
+  background-color: #febe01;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.anuncio {
+  border-radius: 4px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #111;
+}
+
+span {
+  color: #febe01;
+}
+h1 {
+  color: #111;
+  text-align: center;
+}
+p {
+  color: #b2b2b2;
+}
+h2 {
+  color: white;
+}
