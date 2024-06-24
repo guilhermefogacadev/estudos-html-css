@@ -1,0 +1,13 @@
+img {
+  max-width: 100%; /*fica proporcional a tela*/
+  display: block;
+}
+
+div {
+  max-width: 200px;
+  width: 300px;
+}
+
+.foto {
+  width: 150px;
+}

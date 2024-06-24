@@ -1,0 +1,17 @@
+span {
+  display: inline-block;
+  background: #ddd;
+}
+
+span {
+  padding: 30px;
+  padding: 20px 40px;
+  padding: 40px 100px 200px 10px;
+  border: 10px solid black
+    /*adiciona pra todos uma vez que so tem esse parametro*/;
+  border-top: 20px solid blue; /*adiciona so pro top*/
+  border-width: 30px 60px /*aidicona para todos */;
+}
+body {
+  margin-top: 30px /*e referente ao topo do documento*/;
+}
