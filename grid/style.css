@@ -28,6 +28,9 @@ h2 {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr /*fraciona o espaço que sobra entre os elementos*/;
-  gap: 20px;
+  grid-template-columns: auto auto /* 1fr fraciona o espaço que sobra entre os elementos, auto deixa a largura de acordo com o maior conteudo*/;
+  gap: 20px; /*cria uma margem para baixo e para os lados*/
+  justify-content: center; /*strech, space-evenly, para justificar o conteudo ou alinhar. Precisa de ter espaço sobrando*/
+  align-content: center; /*end, space-evenly*/
+  place-content: start;
 }
